@@ -7,12 +7,10 @@
     - specify a port in the application.properties file: server.port=8761
     - add the following dependency to the pom.xml.
         ~~~
-            <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server -->
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-eureka-server</artifactId>
-                <version>1.4.2.RELEASE</version>
-            </dependency>
+              <dependency>
+               <groupId>org.springframework.cloud</groupId>
+               <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+              </dependency>
         ~~~
     
 # Starting the Server
